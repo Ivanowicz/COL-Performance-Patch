@@ -394,9 +394,6 @@
           <Conditional hasstatustag="neq worn" />
         </StatusEffect>
         <StatusEffect type="OnActive" targettype="Contained" target="Contained" tags="medattached" duration="0.05" stackable="false" />
-        <StatusEffect type="OnSecondaryUse" target="NearbyItems,This" targettags="shotgunammo" range="35" tags="choke" duration="1" interval="1" stackable="false">
-          <RequiredItems items="co_choke" type="Contained" />
-        </StatusEffect>
         <StatusEffect type="OnSecondaryUse" targettype="This" target="this" tags="bolt" duration="0.05" setvalue="true">
           <RequiredItem items="co_bolt" type="Contained" />
         </StatusEffect>
@@ -457,7 +454,7 @@
           <Containable items="attachment_light" setactive="true" itempos="11,2" hide="true" />
         </SubContainer>
         <SubContainer capacity="1" maxstacksize="1">
-          <Containable items="attachment_suppressor_12,chokeattachment,boltattachment" itempos="63,-3" />
+          <Containable items="attachment_suppressor_12,boltattachment" itempos="63,-3" />
         </SubContainer>
       </ItemContainer>
       <CustomInterface canbeselected="false" drawhudwhenequipped="false">
@@ -618,9 +615,6 @@
           <Conditional hasstatustag="neq worn" />
         </StatusEffect>
         <StatusEffect type="OnActive" targettype="Contained" target="Contained" tags="medattached" duration="0.05" stackable="false" />
-        <StatusEffect type="OnSecondaryUse" target="NearbyItems,This" targettags="shotgunammo" range="35" tags="choke" duration="1" interval="1" stackable="false">
-          <RequiredItems items="co_choke" type="Contained" />
-        </StatusEffect>
         <StatusEffect type="OnSecondaryUse" target="Contained,This" tags="fire" duration="1" interval="1.1" setvalue="true">
           <RequiredItems items="fireattachment" type="Contained" />
         </StatusEffect>
@@ -677,7 +671,7 @@
           <Containable items="attachment_light" setactive="true" itempos="11,2" hide="true" />
         </SubContainer>
         <SubContainer capacity="1" maxstacksize="1">
-          <Containable items="attachment_suppressor_12,chokeattachment" itempos="67,-1" hide="false" />
+          <Containable items="attachment_suppressor_12" itempos="67,-1" hide="false" />
         </SubContainer>
       </ItemContainer>
       <CustomInterface canbeselected="false" drawhudwhenequipped="false">
@@ -748,9 +742,6 @@
           <Conditional hasstatustag="neq worn" />
         </StatusEffect>
         <StatusEffect type="OnActive" targettype="Contained" target="Contained" tags="medattached" duration="0.05" stackable="false" />
-        <StatusEffect type="OnSecondaryUse" target="NearbyItems,This" targettags="shotgunammo" range="35" tags="choke" duration="1" interval="1" stackable="false">
-          <RequiredItems items="co_choke" type="Contained" />
-        </StatusEffect>
         <StatusEffect type="OnSecondaryUse" targettype="This" target="this" tags="bolt" duration="0.05" setvalue="true">
           <RequiredItem items="co_bolt" type="Contained" />
         </StatusEffect>
@@ -811,7 +802,7 @@
           <Containable items="attachment_light" setactive="true" itempos="11,2" hide="true" />
         </SubContainer>
         <SubContainer capacity="1" maxstacksize="1">
-          <Containable items="attachment_suppressor_12,chokeattachment,boltattachment" itempos="73,-1" hide="false" />
+          <Containable items="attachment_suppressor_12,boltattachment" itempos="73,-1" hide="false" />
         </SubContainer>
       </ItemContainer>
       <CustomInterface canbeselected="false" drawhudwhenequipped="false">
@@ -892,9 +883,6 @@
           <Conditional hasstatustag="neq worn" />
         </StatusEffect>
         <StatusEffect type="OnActive" targettype="Contained" target="Contained" tags="medattached" duration="0.05" stackable="false" />
-        <StatusEffect type="OnSecondaryUse" target="NearbyItems,This" targettags="shotgunammo" range="35" tags="choke" duration="1" interval="1" stackable="false">
-          <RequiredItems items="co_choke" type="Contained" />
-        </StatusEffect>
         <StatusEffect type="OnSecondaryUse" targettype="This" target="this" tags="bolt" duration="0.05" setvalue="true">
           <RequiredItem items="co_bolt" type="Contained" />
         </StatusEffect>
@@ -955,7 +943,7 @@
           <Containable items="attachment_light" setactive="true" itempos="11,2" hide="true" />
         </SubContainer>
         <SubContainer capacity="1" maxstacksize="1">
-          <Containable items="attachment_suppressor_12,chokeattachment,boltattachment" itempos="70,-1" hide="false" />
+          <Containable items="attachment_suppressor_12,boltattachment" itempos="70,-1" hide="false" />
         </SubContainer>
       </ItemContainer>
       <CustomInterface canbeselected="false" drawhudwhenequipped="false">
@@ -1550,9 +1538,6 @@
           <Conditional hasstatustag="neq worn" />
         </StatusEffect>
         <StatusEffect type="OnActive" targettype="Contained" target="Contained" tags="medattached" duration="0.05" stackable="false" />
-        <StatusEffect type="OnSecondaryUse" target="NearbyItems,This" targettags="shotgunammo" range="35" tags="choke" duration="1" interval="1" stackable="false">
-          <RequiredItems items="co_choke" type="Contained" />
-        </StatusEffect>
         <StatusEffect type="OnSecondaryUse" target="Contained,This" tags="fire" duration="1" interval="1.1" setvalue="true">
           <RequiredItems items="fireattachment" type="Contained" />
         </StatusEffect>
@@ -1608,7 +1593,7 @@
           <Containable items="attachment_light" setactive="true" itempos="20,0" hide="false" />
         </SubContainer>
         <SubContainer capacity="1" maxstacksize="1">
-          <Containable items="attachment_suppressor_12,chokeattachment" itempos="62,5" hide="false" />
+          <Containable items="attachment_suppressor_12" itempos="62,5" hide="false" />
         </SubContainer>
       </ItemContainer>
       <CustomInterface canbeselected="false" drawhudwhenequipped="false">
@@ -1783,9 +1768,6 @@
         <StatusEffect type="OnSecondaryUse" target="This" reload="1.8" barrelpos="115,5" stackable="false" setvalue="true">
           <Conditional HasStatusTag="underwater" />
         </StatusEffect>
-        <StatusEffect type="OnSecondaryUse" target="NearbyItems,This" targettags="shotgunammo" range="35" tags="choke" duration="1" interval="1" stackable="false">
-          <RequiredItems items="co_choke" type="Contained" />
-        </StatusEffect>
         <StatusEffect type="OnSecondaryUse" target="Contained,This" tags="fire" duration="1" interval="1.1" setvalue="true">
           <RequiredItems items="fireattachment" type="Contained" />
         </StatusEffect>
@@ -1847,7 +1829,7 @@
           <Containable items="attachment_light" setactive="true" itempos="11,2" hide="false" />
         </SubContainer>
         <SubContainer capacity="1" maxstacksize="1">
-          <Containable items="attachment_suppressor_12,attachment_uw,chokeattachment" itempos="71,-1" hide="false" />
+          <Containable items="attachment_suppressor_12,attachment_uw" itempos="71,-1" hide="false" />
         </SubContainer>
       </ItemContainer>
       <CustomInterface canbeselected="false" drawhudwhenequipped="false">

@@ -5218,12 +5218,6 @@
             <Affliction identifier="co_burning" strength="12" />
           </Explosion>
         </StatusEffect>
-        <StatusEffect type="Always" target="This" spread="8" setvalue="true">
-          <Conditional HasStatusTag="choke" />
-        </StatusEffect>
-        <StatusEffect type="Always" target="This" spread="10.5" setvalue="true">
-          <Conditional HasStatusTag="neq choke" />
-        </StatusEffect>
         <StatusEffect type="OnImpact" target="UseTarget">
           <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
         </StatusEffect>
@@ -5277,12 +5271,6 @@
           <Explosion range="30.0" structuredamage="0" force="1.0" empstrength="0" severlimbsprobability="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false">
             <Affliction identifier="co_burning" strength="5" />
           </Explosion>
-        </StatusEffect>
-        <StatusEffect type="Always" target="This" spread="4.2" setvalue="true">
-          <Conditional HasStatusTag="choke" />
-        </StatusEffect>
-        <StatusEffect type="Always" target="This" spread="8" setvalue="true">
-          <Conditional HasStatusTag="neq choke" />
         </StatusEffect>
         <StatusEffect type="OnImpact" target="UseTarget">
           <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="150,150,200,130" />
@@ -5549,12 +5537,6 @@
           <Affliction identifier="gunshotwound" strength="28" />
           <Affliction identifier="stun" strength="0.2" />
         </Attack>
-        <StatusEffect type="Always" target="This" spread="7" setvalue="true">
-          <Conditional HasStatusTag="choke" />
-        </StatusEffect>
-        <StatusEffect type="Always" target="This" spread="8" setvalue="true">
-          <Conditional HasStatusTag="neq choke" />
-        </StatusEffect>
         <StatusEffect type="OnImpact" target="UseTarget">
           <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
         </StatusEffect>
