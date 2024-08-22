@@ -268,7 +268,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="OnBroken" target="This" comparison="And" interval="2" AllowWhenBroken="true" delay="0.05" checkconditionalalways="true">
@@ -2074,7 +2074,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -2146,7 +2146,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -2218,7 +2218,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -2290,7 +2290,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -2363,7 +2363,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -2435,7 +2435,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -2507,7 +2507,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -2579,7 +2579,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -2652,7 +2652,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -2724,7 +2724,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -3042,7 +3042,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -3114,7 +3114,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -3178,7 +3178,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -3251,7 +3251,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -3323,7 +3323,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -3395,7 +3395,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -3467,7 +3467,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -3613,7 +3613,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -3754,7 +3754,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -3892,7 +3892,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -4102,7 +4102,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -4242,7 +4242,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -4377,7 +4377,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -4654,7 +4654,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -4734,7 +4734,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -4949,7 +4949,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -5029,7 +5029,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
@@ -5103,7 +5103,7 @@
       </ItemContainer>
       <GreaterComponent TimeFrame="0" />
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
         <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">

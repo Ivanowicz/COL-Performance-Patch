@@ -106,10 +106,10 @@
         <StatusEffect type="Always" target="This" IsOn="false">
           <Conditional HasStatusTag="off" />
         </StatusEffect>
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/light_out.ogg" range="300" loop="false" />
@@ -323,10 +323,10 @@
       <InventoryIcon texture="%ModDir%/CO_spritelist_mod.png" sourcerect="924,730,90,27" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -420,10 +420,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="476,445,44,17" depth="0.56" origin="0.4386364,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -460,10 +460,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="238,416,62,18" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -500,10 +500,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="236,741,43,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -540,10 +540,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="236,723,71,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -580,10 +580,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="236,706,43,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -620,10 +620,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="236,690,51,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -660,10 +660,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="236,673,52,18" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -700,10 +700,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="237,655,52,18" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -740,10 +740,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="236,637,69,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -781,10 +781,10 @@
       <ContainedSprite name="coilattached" texture="%ModDir%/CO_spritelist_mod.png" allowedcontainertags="gun" depth="0.56" scale="0.2" sourcerect="2,2,1,1" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -823,10 +823,10 @@
       <ContainedSprite name="choke12" texture="%ModDir%/CO_spritelist_mod.png" allowedcontainertags="12_gun" depth="0.56" scale="0.2" sourcerect="2,2,1,1" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -872,10 +872,10 @@
       <ContainedSprite name="uw19" texture="%ModDir%/CO_spritelist_mod.png" allowedcontainertags="919_gun" depth="0.56" scale="0.2" sourcerect="455,477,52,18" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -932,10 +932,10 @@
         <StatusEffect type="Always" target="This" IsOn="false">
           <Conditional HasStatusTag="off" />
         </StatusEffect>
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/light_out.ogg" range="300" loop="false" />
@@ -979,10 +979,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="238,437,71,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1018,10 +1018,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="429,620,71,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1073,10 +1073,10 @@
       <ContainedSprite name="gl939" texture="%ModDir%/CO_spritelist_mod.png" allowedcontainertags="939_gun" depth="0.56" scale="0.2" sourcerect="500,527,71,24" origin="0.6,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1114,10 +1114,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod2.png" sourcerect="19,26,64,23" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/light_out.ogg" range="300" loop="false" />
@@ -1154,10 +1154,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="238,459,37,17" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1194,10 +1194,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="238,502,62,18" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1234,10 +1234,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="237,479,43,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1274,10 +1274,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="236,613,43,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand,Head" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1314,10 +1314,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="237,524,51,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1354,10 +1354,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="238,543,52,18" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1394,10 +1394,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="237,565,52,18" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1434,10 +1434,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="238,590,69,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1473,10 +1473,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="386,529,82,30" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1512,10 +1512,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="399,592,62,18" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1551,10 +1551,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="386,565,51,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1590,10 +1590,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="373,619,43,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1629,10 +1629,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="323,621,43,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand,Head" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1668,10 +1668,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="322,591,69,19" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1707,10 +1707,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="323,566,52,18" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1746,10 +1746,10 @@
       <Sprite texture="%ModDir%/CO_spritelist_mod.png" sourcerect="322,538,52,18" depth="0.56" origin="0.5,0.5" />
       <Body width="48" height="15" density="15" />
       <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect">
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/attachment_out.ogg" range="300" loop="false" />
@@ -1806,10 +1806,10 @@
         <StatusEffect type="Always" target="This" IsOn="false">
           <Conditional HasStatusTag="off" />
         </StatusEffect>
-        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" delay="0.1" AllowWhenBroken="true">
+        <StatusEffect type="OnContained" target="This" tags="ingun" duration="0.6" interval="0.5" AllowWhenBroken="true">
           <Conditional hastag="gun" targetcontainer="true" />
         </StatusEffect>
-        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" delay="0.1" interval="2" AllowWhenBroken="true">
+        <StatusEffect type="Always" target="This" comparison="And" disabledeltatime="true" interval="2" AllowWhenBroken="true">
           <Conditional hasstatustag="ingun" />
           <Conditional hastag="neq gun" targetcontainer="true" />
           <Sound file="%ModDir%/Sounds/light_out.ogg" range="300" loop="false" />

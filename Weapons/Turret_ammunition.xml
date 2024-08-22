@@ -1461,7 +1461,7 @@
           <Conditional targetitemcomponent="Projectile" IsStuckToTarget="false" />
           <Remove />
         </StatusEffect>
-        <StatusEffect type="OnActive" target="This" checkconditionalalways="true" comparison="And" delay="0.05">
+        <StatusEffect type="OnActive" target="This" checkconditionalalways="true" comparison="And" stackable="false" delay="0.05">
           <Conditional HasStatusTag="deflect" />
           <Conditional targetitemcomponent="Projectile" IsStuckToTarget="false" />
           <Remove />
@@ -1997,7 +1997,7 @@
           <Conditional targetitemcomponent="Projectile" IsStuckToTarget="false" />
           <Remove />
         </StatusEffect>
-        <StatusEffect type="OnActive" target="This" checkconditionalalways="true" comparison="And" delay="0.05">
+        <StatusEffect type="OnActive" target="This" checkconditionalalways="true" comparison="And" stackable="false" delay="0.05">
           <Conditional HasStatusTag="deflect" />
           <Conditional targetitemcomponent="Projectile" IsStuckToTarget="false" />
           <Remove />
